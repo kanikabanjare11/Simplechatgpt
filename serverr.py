@@ -3,7 +3,7 @@ import openai
 from flask import Flask, request, jsonify
 from celery import Celery
 
-openai.api_key = "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"
+openai.api_key = ""
 
 app = Flask(__name__)
 
